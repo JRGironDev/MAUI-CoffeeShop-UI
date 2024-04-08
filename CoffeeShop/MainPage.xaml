@@ -54,7 +54,80 @@
             </Grid>
         </Border>
 
+        <Border
+            Grid.Row="1"
+            Grid.RowSpan="2"
+            Stroke="{StaticResource DarkGray}">
+            <Border.StrokeShape>
+                <RoundRectangle CornerRadius="30" />
+            </Border.StrokeShape>
 
+            <Grid 
+                Padding="20"
+                BackgroundColor="{StaticResource DarkGray}"
+                ColumnDefinitions=".5*, .25*, .25*"
+                RowDefinitions="*,*,*">
+
+                <Label 
+                    Grid.ColumnSpan="2"
+                    FontAttributes="Bold"
+                    FontSize="20"
+                    FontFamily="Montserrat"
+                    HorizontalOptions="Center"
+                    Text="Expresso Capuccino"
+                    TextColor="White" />
+
+                <Label
+                    Grid.Column="2"
+                    FontAttributes="Bold"
+                    FontSize="20"
+                    HorizontalTextAlignment="Center"
+                    FontFamily="Montserrat"
+                    Text="$50"
+                    TextColor="{StaticResource Brown}" />
+
+                <Label
+                    Grid.Row="1"
+                    Grid.ColumnSpan="2"
+                    FontFamily="Montserrat"
+                    FontSize="15"
+                    Text="Decafe Pike"
+                    TextColor="White" />
+
+                <HorizontalStackLayout Grid.Row="2" Spacing="10">
+                    <Label
+                        FontFamily="Montserrat"
+                        FontSize="20"
+                        HorizontalOptions="Center"
+                        Text="Star"
+                        TextColor="{StaticResource Orange}" 
+                        VerticalOptions="Center" />
+
+                    <Label
+                        FontFamily="Montserrat"
+                        FontAttributes="Bold"
+                        FontSize="15"
+                        Text="4.5"
+                        TextColor="White" 
+                        VerticalOptions="Center"/>
+
+                    <Label
+                        FontFamily="Montserrat"
+                        FontSize="15"
+                        Text="(4,4461)"
+                        TextColor="{StaticResource LightGray}"
+                        VerticalOptions="Center" />
+                </HorizontalStackLayout>
+
+                <Button
+                    Grid.Row="2"
+                    Grid.Column="1"
+                    Grid.ColumnSpan="2"
+                    BackgroundColor="{StaticResource Orange}"
+                    FontFamily="Montserrat"
+                    Text="Add to Cart" />
+            </Grid>
+        </Border>
     </Grid>
 
 </ContentPage>
