@@ -1068,3 +1068,8 @@
 /Users/josequinonez/Codes/CoffeeShop/CoffeeShop/obj/Debug/net8.0-android/stamp/_ResolveLibraryProjectImports.stamp
 /Users/josequinonez/Codes/CoffeeShop/CoffeeShop/obj/Debug/net8.0-android/resizetizer/r/drawable/cup.webp
 /Users/josequinonez/Codes/CoffeeShop/CoffeeShop/obj/Debug/net8.0-android/CoffeeShop.sourcelink.json
+/Users/josequinonez/Codes/CoffeeShop/CoffeeShop/obj/Debug/net8.0-android/resizetizer/f/.DS_Store
+/Users/josequinonez/Codes/CoffeeShop/CoffeeShop/obj/Debug/net8.0-android/resizetizer/f/fa-regular-400.ttf
+/Users/josequinonez/Codes/CoffeeShop/CoffeeShop/obj/Debug/net8.0-android/resizetizer/f/fontello-32c1c638.zip
+/Users/josequinonez/Codes/CoffeeShop/CoffeeShop/obj/Debug/net8.0-android/resizetizer/f/Montserrat.ttf
+/Users/josequinonez/Codes/CoffeeShop/CoffeeShop/obj/Debug/net8.0-android/resizetizer/r/drawable/cup.jpeg

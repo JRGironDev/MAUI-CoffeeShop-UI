@@ -13,6 +13,44 @@
                 <Image Grid.RowSpan="2"
                        Aspect="AspectFill"
                        Source="cup.jpeg" />
+                
+                <Grid ColumnDefinitions="*, *">
+                    <Border Margin="15, 35, 0, 0"
+                            BackgroundColor="{StaticResource DarkGray}"
+                            HeightRequest="50"
+                            HorizontalOptions="Start"
+                            VerticalOptions="Start"
+                            WidthRequest="50">
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="10" />
+                        </Border.StrokeShape>
+                        <Label
+                            FontSize="20"
+                            HorizontalOptions="Center"
+                            Text="B"
+                            TextColor="{StaticResource LightGray}" 
+                            VerticalOptions="Center"/>
+                    </Border>
+                        
+                    <Border 
+                            Grid.Column="1"
+                            Margin="0, 35, 15, 0"
+                            BackgroundColor="{StaticResource DarkGray}"
+                            HeightRequest="50"
+                            HorizontalOptions="End"
+                            VerticalOptions="Start"
+                            WidthRequest="50">
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="10" />
+                        </Border.StrokeShape>
+                        <Label
+                            FontSize="20"
+                            HorizontalOptions="Center"
+                            Text="Love"
+                            TextColor="{StaticResource LightGray}" 
+                            VerticalOptions="Center"/>
+                    </Border>
+                </Grid>
             </Grid>
         </Border>
 

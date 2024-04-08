@@ -4,6 +4,10 @@
 <dict>
   <key>UIAppFonts</key>
   <array>
+	<string>.DS_Store</string>
+	<string>fa-regular-400.ttf</string>
+	<string>MauiInfo.plist</string>
+	<string>Montserrat.ttf</string>
 	<string>OpenSans-Regular.ttf</string>
 	<string>OpenSans-Semibold.ttf</string>
   </array>

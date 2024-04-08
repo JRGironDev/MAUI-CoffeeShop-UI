@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Resources/.DS_Store</key>
+		<data>
+		tJ6hutgUNZDeK3VRtdyLG9z8wH4=
+		</data>
 		<key>Resources/AboutAssets.txt</key>
 		<data>
 		MEt7GErfS6fHNEi3JiInA2rNG0U=
@@ -14,11 +18,15 @@
 		</data>
 		<key>Resources/MauiInfo.plist</key>
 		<data>
-		iEtuUGCV6JM3gxS/pO33swhmpp8=
+		HTNZVELOG50snjwpw3W/KXzIcxQ=
 		</data>
 		<key>Resources/MonoTouchDebugConfiguration.txt</key>
 		<data>
 		oowkf1sL6T19nanXUObgmuayWqM=
+		</data>
+		<key>Resources/Montserrat.ttf</key>
+		<data>
+		3r0Q5X+wfdJBh8QWeYhRKUScFDU=
 		</data>
 		<key>Resources/OpenSans-Regular.ttf</key>
 		<data>
@@ -31,6 +39,10 @@
 		<key>Resources/appicon.icns</key>
 		<data>
 		L9cHAOVSlaW2jMaBgy7GlIBZdZg=
+		</data>
+		<key>Resources/cup.jpeg</key>
+		<data>
+		9wVwtuccqaVWp62lTH9icMFGRzM=
 		</data>
 		<key>Resources/cup.webp</key>
 		<data>
@@ -48,6 +60,10 @@
 		<data>
 		Zt+VE+uuJQUze/d9zd3r+NdrtDw=
 		</data>
+		<key>Resources/fa-regular-400.ttf</key>
+		<data>
+		LXiQ4Sr7d0kBEuxX/kfKBoiuvaI=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -55,14 +71,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			h6vP4zMh73F20lf/KZO6EGiv9VmFICD5m85on4zhYFE=
+			4jSpf/uniRB3HRjIOEvJaQJ4U8t30X22S9lmihAsOrY=
 			</data>
 		</dict>
 		<key>MonoBundle/CoffeeShop.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Aiehu2BJZPtYWnk/30PRoAwXJ1MWNmZ+rnH0NWsN3JY=
+			+427yaVXJu6vaZ6oGbiBiM8XQH+h3JW0OaKsXN78o3g=
 			</data>
 		</dict>
 		<key>MonoBundle/Microsoft.CSharp.dll</key>
@@ -1637,7 +1653,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tx0KXqEC+DvcCGyogQTEQWHcCWJYYqH24NtPwhpQEjo=
+			CQsMFmklZd0QR4NCWaKb7LkU84McOoRKyF/gc9m/Nn4=
 			</data>
 		</dict>
 		<key>Resources/MonoTouchDebugConfiguration.txt</key>
@@ -1645,6 +1661,13 @@
 			<key>hash2</key>
 			<data>
 			RS51BO98d+zhJWK1abJOyD5jB4nYJnWJPtL2DZyA/zw=
+			</data>
+		</dict>
+		<key>Resources/Montserrat.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			5bGj+6xuW/nyCGD5olSr45JAQ59EVWjYzTdIJ4nl3Kw=
 			</data>
 		</dict>
 		<key>Resources/OpenSans-Regular.ttf</key>
@@ -1666,6 +1689,13 @@
 			<key>hash2</key>
 			<data>
 			H4w+DqGNITnXOEy4UxkSBph9BjGxHf/ui2zq6lzv5a0=
+			</data>
+		</dict>
+		<key>Resources/cup.jpeg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			HPCGd83BqA5heMBzmnEUfJTX4xmr2XuOL2ywPe4n2VA=
 			</data>
 		</dict>
 		<key>Resources/cup.webp</key>
@@ -1694,6 +1724,13 @@
 			<key>hash2</key>
 			<data>
 			Up4t4C3+oRoTqJRc+zJSfhbhdg8R3zWbHkE+G9N4B9U=
+			</data>
+		</dict>
+		<key>Resources/fa-regular-400.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			fYGhp8wH4asZbkBJbT9DWel1n3nY7Ig6Rmde5pkSlQs=
 			</data>
 		</dict>
 	</dict>
