@@ -32,6 +32,10 @@
 		<data>
 		L9cHAOVSlaW2jMaBgy7GlIBZdZg=
 		</data>
+		<key>Resources/cup.webp</key>
+		<data>
+		X/8WjJgG0ObuB4w2hnggsCIU/D0=
+		</data>
 		<key>Resources/dotnet_bot.png</key>
 		<data>
 		egvqYQJu98U5bepNqiiYGWJc9As=
@@ -51,14 +55,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yG2IP4fMpAyNpCYraMGTPYUfe5Q5KHdj7WxgPd4WYVk=
+			h6vP4zMh73F20lf/KZO6EGiv9VmFICD5m85on4zhYFE=
 			</data>
 		</dict>
 		<key>MonoBundle/CoffeeShop.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wqduXIXc/pBSZjLKz1quaLIWC2VTj55LPsyAjtxqSGY=
+			Aiehu2BJZPtYWnk/30PRoAwXJ1MWNmZ+rnH0NWsN3JY=
 			</data>
 		</dict>
 		<key>MonoBundle/Microsoft.CSharp.dll</key>
@@ -1662,6 +1666,13 @@
 			<key>hash2</key>
 			<data>
 			H4w+DqGNITnXOEy4UxkSBph9BjGxHf/ui2zq6lzv5a0=
+			</data>
+		</dict>
+		<key>Resources/cup.webp</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			RmrUqwdIpELirQ/Hf1l3N4lbgWuG3jUX/HuEmjq33sk=
 			</data>
 		</dict>
 		<key>Resources/dotnet_bot.png</key>

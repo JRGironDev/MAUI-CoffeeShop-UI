@@ -10,6 +10,9 @@
                 <RoundRectangle CornerRadius="20" />
             </Border.StrokeShape>
             <Grid RowDefinitions=".3*, .7*">
+                <Image Grid.RowSpan="2"
+                       Aspect="AspectFill"
+                       Source="cup.jpeg" />
             </Grid>
         </Border>
 
