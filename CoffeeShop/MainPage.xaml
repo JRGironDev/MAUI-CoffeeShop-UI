@@ -130,7 +130,9 @@
         </Border>
 
         <Grid Grid.Row="3" RowDefinitions=".4*,.4*,.2*">
-            <VerticalStackLayout Margin="0,20,0,0" Spacing="10">
+            <VerticalStackLayout 
+                Margin="0,20,0,0" 
+                Spacing="10">
                 <Label
                     FontFamily="RubikRegular"
                     FontSize="16"
@@ -158,17 +160,106 @@
 
             <VerticalStackLayout 
                 Grid.Row="1"
-                Margin="0,20,0,0"
+                Margin="0,30,0,0"
                 Spacing="20">
                 <Label
                     FontFamily="RubikRegular"
                     FontSize="16"
                     Text="Size"
-                    TextColor="White" />
+                    TextColor="#D9DADA" />
                 
-                <HorizontalStackLayout RadioButtonGroup.GroupName>
+                <HorizontalStackLayout 
+                    RadioButtonGroup.GroupName="MenuCategories"
+                    Spacing="10"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center">
+                    <BindableLayout.ItemsSource>
+                        <x:Array Type="{x:Type x:String}">
+                            <x:String>Small</x:String>
+                            <x:String>Medium</x:String>
+                            <x:String>Large</x:String>
+                        </x:Array>
+                    </BindableLayout.ItemsSource>
+
+                    <BindableLayout.ItemTemplate>
+                        <DataTemplate>
+                            <RadioButton 
+                                Content="{Binding .}">
+                                    <RadioButton.ControlTemplate>
+                                        <ControlTemplate>
+                                            <Grid>
+                                                <Border 
+                                                    x:Name="Container"
+                                                    Stroke="{StaticResource BGGray}"
+                                                    WidthRequest="100">
+                                                    <Border.StrokeShape>
+                                                        <RoundRectangle CornerRadius="10" />
+                                                    </Border.StrokeShape>
+                                                    <Label x:Name="TextLabel"
+                                                           HorizontalOptions="Center"
+                                                           Text="{TemplateBinding Content}"
+                                                           VerticalOptions="Center" />
+                                                </Border>
+
+                                                <VisualStateManager.VisualStateGroups>
+                                                    <VisualStateGroupList>
+                                                        <VisualStateGroup x:Name="CheckedStates">
+                                                            <VisualState x:Name="Checked">
+                                                                <VisualState.Setters>
+                                                                    <Setter 
+                                                                        Property="Label.TextColor" 
+                                                                        Value="{StaticResource Brown}" 
+                                                                        TargetName="TextLabel" />
+
+                                                                    <Setter 
+                                                                        Property="Border.BackgroundColor" 
+                                                                        Value="{StaticResource BGGray}" 
+                                                                        TargetName="Container" />
+
+                                                                    <Setter 
+                                                                        Property="Border.Stroke" 
+                                                                        Value="{StaticResource Brown}" 
+                                                                        TargetName="Container" />
+                                                                        
+                                                                </VisualState.Setters>
+                                                            </VisualState>
+
+                                                            <VisualState x:Name="Unchecked">
+                                                                <VisualState.Setters>
+                                                                    <Setter 
+                                                                        Property="Label.TextColor" 
+                                                                        Value="LightGray" 
+                                                                        TargetName="TextLabel" />
+
+                                                                    <Setter 
+                                                                        Property="Border.BackgroundColor" 
+                                                                        Value="{StaticResource DarkGray}" 
+                                                                        TargetName="Container" />
+
+                                                                    <Setter 
+                                                                        Property="Border.Stroke" 
+                                                                        Value="{StaticResource DarkGray}" 
+                                                                        TargetName="Container" />
+                                                                </VisualState.Setters>
+                                                            </VisualState>
+                                                        </VisualStateGroup>
+                                                    </VisualStateGroupList>
+                                                </VisualStateManager.VisualStateGroups>
+                                            </Grid>
+                                        </ControlTemplate>
+                                    </RadioButton.ControlTemplate>
+                            </RadioButton>
+                        </DataTemplate>
+                    </BindableLayout.ItemTemplate>
                 </HorizontalStackLayout>
             </VerticalStackLayout>
+
+            <Button 
+                Grid.Row="2"
+                BackgroundColor="{StaticResource Brown}"
+                FontFamily="RubikRegular"
+                Text="Buy Now" 
+                HeightRequest="10"/>
         </Grid>
     </Grid>
 
