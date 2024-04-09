@@ -15,6 +15,8 @@ public static class MauiProgram
 				fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
 				fonts.AddFont("Montserrat.ttf", "Montserrat");
 				fonts.AddFont("fa-regular-400.ttf", "FontA");
+				fonts.AddFont("Rubik-Regular.ttf", "RubikRegular");
+				fonts.AddFont("Rubik-Light.ttf", "RubikLight");
 			});
 
 #if DEBUG

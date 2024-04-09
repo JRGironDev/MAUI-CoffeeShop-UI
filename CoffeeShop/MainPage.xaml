@@ -72,7 +72,7 @@
                     Grid.ColumnSpan="2"
                     FontAttributes="Bold"
                     FontSize="20"
-                    FontFamily="Montserrat"
+                    FontFamily="RubikRegular"
                     HorizontalOptions="Center"
                     Text="Expresso Capuccino"
                     TextColor="White" />
@@ -82,21 +82,21 @@
                     FontAttributes="Bold"
                     FontSize="20"
                     HorizontalTextAlignment="Center"
-                    FontFamily="Montserrat"
+                    FontFamily="RubikRegular"
                     Text="$50"
                     TextColor="{StaticResource Brown}" />
 
                 <Label
                     Grid.Row="1"
                     Grid.ColumnSpan="2"
-                    FontFamily="Montserrat"
+                    FontFamily="RubikRegular"
                     FontSize="15"
                     Text="Decafe Pike"
                     TextColor="White" />
 
                 <HorizontalStackLayout Grid.Row="2" Spacing="10">
                     <Label
-                        FontFamily="Montserrat"
+                        FontFamily="RubikRegular"
                         FontSize="20"
                         HorizontalOptions="Center"
                         Text="Star"
@@ -104,7 +104,7 @@
                         VerticalOptions="Center" />
 
                     <Label
-                        FontFamily="Montserrat"
+                        FontFamily="RubikRegular"
                         FontAttributes="Bold"
                         FontSize="15"
                         Text="4.5"
@@ -112,7 +112,7 @@
                         VerticalOptions="Center"/>
 
                     <Label
-                        FontFamily="Montserrat"
+                        FontFamily="RubikRegular"
                         FontSize="15"
                         Text="(4,4461)"
                         TextColor="{StaticResource LightGray}"
@@ -124,7 +124,7 @@
                     Grid.Column="1"
                     Grid.ColumnSpan="2"
                     BackgroundColor="{StaticResource Orange}"
-                    FontFamily="Montserrat"
+                    FontFamily="RubikRegular"
                     Text="Add to Cart" />
             </Grid>
         </Border>
