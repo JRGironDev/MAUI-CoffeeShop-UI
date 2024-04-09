@@ -128,6 +128,48 @@
                     Text="Add to Cart" />
             </Grid>
         </Border>
+
+        <Grid Grid.Row="3" RowDefinitions=".4*,.4*,.2*">
+            <VerticalStackLayout Margin="0,20,0,0" Spacing="10">
+                <Label
+                    FontFamily="RubikRegular"
+                    FontSize="16"
+                    Text="Description"
+                    TextColor="#D9DADA" />
+
+                <Label
+                    FontSize="14"
+                    LineHeight="1.3">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span 
+                                FontFamily="RubikLight"                                     
+                                FontSize="14"
+                                Text="Expresso is made by forcing very hot water under hight preassure into a small amount of finely ground coffee beans. The result is a thicker, more concentrated coffee that is served in smaller portions than "
+                                TextColor="{StaticResource LightGray}" />
+                            <Span 
+                                FontFamily="RubikLight"
+                                Text="... Read More"
+                                TextColor ="{StaticResource Brown}"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+            </VerticalStackLayout>
+
+            <VerticalStackLayout 
+                Grid.Row="1"
+                Margin="0,20,0,0"
+                Spacing="20">
+                <Label
+                    FontFamily="RubikRegular"
+                    FontSize="16"
+                    Text="Size"
+                    TextColor="White" />
+                
+                <HorizontalStackLayout RadioButtonGroup.GroupName>
+                </HorizontalStackLayout>
+            </VerticalStackLayout>
+        </Grid>
     </Grid>
 
 </ContentPage>
